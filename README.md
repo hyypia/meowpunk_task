@@ -28,7 +28,7 @@ cd meowpunk_task
 Перед запуском необходимо добавить файлы `client.csv` и `server.csv` в
 директорию `data/`.
 
-Устанавливаем зависимости Poetry и запускаем бота вручную:
+Устанавливаем зависимости Poetry и запускаем:
 ```
 poetry install
 poetry run python main
