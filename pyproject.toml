@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "meowpunk-task"
+version = "0.1.0"
+description = "test task for data engeneer vacancy in meowpunk"
+authors = ["igor tereschuk"]
+readme = "README.md"
+packages = [{include = "meowpunk_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+memory-profiler = "^0.61.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
