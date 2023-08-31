@@ -21,8 +21,12 @@ curl -sSL https://install.python-poetry.org | python3 -
 ```
 mkdir -p ~/code/
 cd ~/code
-git clone
+git clone https://github.com/hyypia/meowpunk_task.git
+cd meowpunk_task
 ```
+
+Перед запуском необходимо добавить файлы `client.csv` и `server.csv` в
+директорию `data/`.
 
 Устанавливаем зависимости Poetry и запускаем бота вручную:
 ```
